@@ -1,0 +1,100 @@
+[
+	{
+		"id": 1,
+		"title": "Estanteria",
+		"description": "mueble de madera barnizada, medidas 1.20 mts x 0.80 mts",
+		"price": 1200,
+		"thumbnail": "sin imagen",
+		"code": "abc123",
+		"stock": 25,
+		"status": true,
+		"category": "mueble de madera de pino"
+	},
+	{
+		"id": 2,
+		"title": "Ropero",
+		"description": "mueble de madera envejecido, medidas 2.50 mts x 2.30 mts",
+		"price": 1500,
+		"thumbnail": "sin imagen",
+		"code": "def456",
+		"stock": 10,
+		"status": true,
+		"category": "mueble de madera de pino"
+	},
+	{
+		"id": 3,
+		"title": "Comoda",
+		"description": "mueble de madera al natural, medidas 1.80 mts x 0.70 mts",
+		"price": 2000,
+		"thumbnail": "sin imagen",
+		"code": "dei432",
+		"stock": 5,
+		"status": true,
+		"category": "mueble de madera de Roble"
+	},
+	{
+		"id": 4,
+		"title": "Somier 2 plazas",
+		"description": "mueble de madera al natural, medidas 2.20 mts x 2.50 mts",
+		"price": 15000,
+		"thumbnail": "sin imagen",
+		"code": "for747",
+		"stock": 7,
+		"status": true,
+		"category": "mueble de madera de Algarrobo"
+	},
+	{
+		"id": 5,
+		"title": "Cucheta",
+		"description": "mueble de madera barnizado, medidas 2.20 mts x 0.90 mts",
+		"price": 11000,
+		"thumbnail": "sin imagen",
+		"code": "lac936",
+		"stock": 10,
+		"status": true,
+		"category": "mueble de madera de pino"
+	},
+	{
+		"id": 6,
+		"title": "mesa comedor",
+		"description": "mueble de madera al natural, medidas 1.20 mts x 0.80 mts",
+		"price": 3500,
+		"thumbnail": "sin imagen",
+		"code": "abc789",
+		"stock": 10,
+		"status": true,
+		"category": "mueble de madera de Roble"
+	},
+	{
+		"id": 7,
+		"title": "mesa cocina",
+		"description": "mueble de madera al natural, medidas 1.20 mts x 0.80 mts",
+		"price": 2500,
+		"thumbnail": "sin imagen",
+		"code": "abc551",
+		"stock": 8,
+		"status": true,
+		"category": "mueble de madera de Pino"
+	},
+	{
+		"id": 8,
+		"title": "mesita ratonera",
+		"description": "mueble de madera al natural, medidas 1.20 mts x 0.80 mts",
+		"price": 3000,
+		"thumbnail": "sin imagen",
+		"code": "abc751",
+		"stock": 8,
+		"status": true,
+		"category": "mueble de madera de roble"
+	},
+	{
+		"id": 9,
+		"title": "Banqueta matera",
+		"description": "banqueta forrada con pana, 0.30mts x 0.50mts",
+		"price": 1800,
+		"thumbnail": "sin img",
+		"code": "pil365",
+		"stock": 10,
+		"category": "mueble de pino"
+	}
+]

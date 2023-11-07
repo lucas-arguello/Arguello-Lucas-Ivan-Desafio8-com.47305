@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+}
+
+
+.subtitle{
+    text-align: center;
+}
+.productList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.nav__link{
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(179, 88, 88);
+}
+
+.form{
+    text-align: center;
+
+}

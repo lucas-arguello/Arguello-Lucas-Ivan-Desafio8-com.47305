@@ -1,0 +1,38 @@
+
+<h1 class="titleList">Listado de Productos</h1>
+
+    <div>
+        {{#if userAdmin}}
+            <h2>Hola, <span style="color: rgb(95, 5, 65)"> {{userFirst_name}}</span></h2>
+            <p>Sos <span style="color: rgb(12, 131, 228)" >{{userRole}}</span> de la pagina</p>
+            {{else}}
+            <h2>Hola, <span style="color: blueviolet">{{userFirst_name}} {{userLast_name}}</span></h2>
+            <p>Sos <span style="color: rgb(228, 127, 12)" >{{userRole}}</span>, Ya podes navegar por nuestro sitio!!</p>
+        
+        {{/if}}
+    </div>
+
+    {{#each products}}
+        <ul class="list">
+            <li>
+                <div>Nombre del producto: {{this.title}} </div>
+                <div>Precio: {{this.price}} </div>
+                <div>Descripcion: {{this.description}}</div>
+                <div>Imagen: {{this.thumbnail}}</div>
+                <div>Code: {{this.code}} </div>
+                <div>Stock: {{this.stock}}</div>
+                <div>Categoria: {{this.category}} </div>
+
+            </li>
+            
+        </ul>
+        
+        
+    {{/each}}
+
+<script src="socket.io/socket.io.js"></script> 
+
+
+{{!-- en este script buscamos la carpeta con la que trabajamos en "js" dentro de la vista. --}}
+<script src="js/home.js"></script>
+ 
